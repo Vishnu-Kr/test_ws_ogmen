@@ -1,0 +1,10 @@
+<!-- -*- xml -*- -->
+<launch>
+    <!-- Launch the joy_node from the joy package -->
+    <node pkg="joy" type="joy_node" name="joy_node" />
+
+    <!-- Launch the joy_to_rtarget.py node from the control_system package -->
+    <node pkg="joy_control" type="joy_to_rtarget.py" name="joy_to_rtarget_node" output="screen"> -->
+     </node>
+</launch>
+
